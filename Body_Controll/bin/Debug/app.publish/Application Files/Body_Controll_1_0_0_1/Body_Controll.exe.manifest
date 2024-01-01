@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Body_Controll.exe" version="1.0.0.1" publicKeyToken="8b32c1e7aff7098a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Body_Controll" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Body_Controll.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Body_Controll.exe" size="4040192">
+      <assemblyIdentity name="Body_Controll" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5LfLYl00oNEBxy6pXWWWpu+FC3eMwzaDm8Dykg1bTKk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Guna.UI2.dll" size="1562792">
+      <assemblyIdentity name="Guna.UI2" version="2.0.0.3" publicKeyToken="AD275B4BE6718D4B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z4mZ1zfmVUn1r12jcj5y2VQZBpnz1yzA/4Darqazs9g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="455168">
+      <assemblyIdentity name="MySql.Data" version="6.8.3.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MaByfT3Okvvv8MAQpi46xrEA+lqwnMFkYSD5JXg0XiQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Body_Controll.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-7MCVBFJ\Elon Musk" issuerKeyHash="a469ead068204d0fb8726e85bd9518997c200b2a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>IqZi37FVF03iTuOn7q4/LAkOeUQetRA/wXfiGRjUe6Q=</DigestValue></Reference></SignedInfo><SignatureValue>sP+M1o7KAgPbIs5TGFRg3VIR70juP3L10Q+jnRCV1UN6WGq2aZdlRSwesl5/PGYxkxx54RITJe81nXy4iXD7TDbyPKloJgkTWoCCGNZfGkApYK6RfBRXSxwocqtadm/CocTT1C2Hj8mDMVELkYlhOGuktxUhAFlBJjPqCWRB63E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>taby2oMgyjzOvrZCAT5XgOdNjjpkEC7CGSbGlRadxtzZcxSWIKvW+LXdgvK/iyhJmwqqmGgl5M6eCSnOxHuYbx5nHVTlLr3Z/LcYYuf0tAKCRjOaozmnUN4+eYTO72N9eWt9pl9RcjWnr0p1Y2vzVFpjG7YteAxveJfN1J4ufXk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a47bd41819e277c13f10b51e44790e092c3faeeea7e34ee24d1755b1df62a622" Description="" Url=""><as:assemblyIdentity name="Body_Controll.exe" version="1.0.0.1" publicKeyToken="8b32c1e7aff7098a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-7MCVBFJ\Elon Musk</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Yiqzbosb+bEYE6YKTF6i/+ArGeJhKHVLs9rrVoBvdWI=</DigestValue></Reference></SignedInfo><SignatureValue>kwy/lu3H+zujpCpaw5C7NUnjwg31KTbXC77EMtlyMsa0IxoxjckuPestqiyhG1cKej4KjsZsTeMspynphhRD5JmJb0l7h6653GjA9jJQEwlPpLqpjvPbnXj/29fyIIH/1/FGVyAkYnbClcB537XGNxCQTCAsCxJ5gc7WyrLlXhw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>taby2oMgyjzOvrZCAT5XgOdNjjpkEC7CGSbGlRadxtzZcxSWIKvW+LXdgvK/iyhJmwqqmGgl5M6eCSnOxHuYbx5nHVTlLr3Z/LcYYuf0tAKCRjOaozmnUN4+eYTO72N9eWt9pl9RcjWnr0p1Y2vzVFpjG7YteAxveJfN1J4ufXk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQZlZZ9fDZjK9Ekwj2+e438TANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABFAFMASwBUAE8AUAAtADcATQBDAFYAQgBGAEoAXABFAGwAbwBuACAATQB1AHMAazAeFw0yMjA1MDUwMzQ1MzJaFw0yMzA1MDUwOTQ1MzJaMD0xOzA5BgNVBAMeMgBEAEUAUwBLAFQATwBQAC0ANwBNAEMAVgBCAEYASgBcAEUAbABvAG4AIABNAHUAcwBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC1pvLagyDKPM6+tkIBPleA502OOmQQLsIZJsaVFp3G3NlzFJYgq9b4td2C8r+LKEmbCqqYaCXkzp4JKc7Ee5hvHmcdVOUuvdn8txhi5/S0AoJGM5qjOadQ3j55hM7vY315a32mX1FyNaevSnVja/NUWmMbti14DG94l83Uni59eQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACkIiQiiVNNrpdC5x2/bFj+81v7cctMZKj35fVw//SOQUM1Ij2v2rqaCp81ZO5H2dtfb5jD+8HxsQGZcUR7BadWoN1XpWeBIgKkmdEvDxLhsL6HmX+WFew0Eqru2ppwMZPEJiEOw+Ss9wIJKAPBiiWHq8Mr2AcaVnglIoHExKHjA</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
